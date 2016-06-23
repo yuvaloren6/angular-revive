@@ -117,5 +117,5 @@ of disabled items. The following piece of code is the kind of logic you will nee
 
 ###Install with Bower
 ```sh
-$ bower install revive
+$ bower install angular-revive
 ```
