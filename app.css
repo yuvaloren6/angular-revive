@@ -53,6 +53,6 @@
     margin-bottom: 100px;
     padding: 20px;
     font-size: x-large;
-    width: 300px;
+    min-width: 400px;
 }
 
