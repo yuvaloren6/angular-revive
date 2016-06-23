@@ -4,13 +4,13 @@ The <b>revive</b> is a wrapper for other directives, or dead html, that can take
  management of any group of clickable regions. The directive's two-way binding with ngModel insures that any changes in the model has immediate 
 effect on the view, and that any user interaction with underline directive is immediatelly propagated to the model.
 
-####Selections mode
+####Selection mode
 When operating in a single selection mode: repeated selections of the same item - selectes that item repeatedly, if you wish to 
 de-select an item without selecting another, use null.
 
 When operating in a multiple selections mode: selecting a selected item - de-select that item. 
 ###Dependencies
-The <b>revive</b> solely dependency is on AngularJS 1.5.6 [get AngularJS](http://angularjs.org/)
+The <b>revive</b> sole dependency is on AngularJS 1.5.6 [get AngularJS](http://angularjs.org/)
 ###Demo
 THe directive comes with an example project that lets you try out its various capabilities.
 ###Usage
