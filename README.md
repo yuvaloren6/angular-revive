@@ -83,7 +83,7 @@ The following piece of code is the kind of logic you will need to implement in y
 ```javascript
 	$scope.$on(MessageSelectionChanged, function (event, selections) {
 		if (I am in selected list) {
-			show that I'm selected
+			show that I am selected
 		} else {
 			show my normal representation
 		}
@@ -111,7 +111,7 @@ Take note, a resest event, clears the list of selected item, as one come to expe
 of disabled items. The following piece of code is the kind of logic you will need to implement in your directive:
 ```javascript
     $scope.$on(MessageSelectReset, function (event) {
-        reset logic - such as if I'm selected, de-select myself
+        reset logic - such as if I am selected, de-select myself
     });
 ```
 
