@@ -1,0 +1,58 @@
+﻿
+.map-region {
+    border: 1px solid black;
+    width: 50%; 
+    height: 50%; 
+    position: absolute;
+    padding-top:10px;
+  z-index: 1;
+}
+
+.map-region-enabled {
+    cursor: pointer;
+}
+
+.map-region-disabled {
+    cursor: no-drop;
+    background-color: gray;
+}
+
+.map-region-selected {
+    color: gold;
+}
+
+.map-div {
+ position:relative;
+  border: 1px solid black;
+  height: 220px;
+  font-size:
+}
+
+.title {
+    text-align: center;
+    vertical-align: middle;
+    line-height: 100%; 
+        font-weight: bold;
+        padding-top: 20%;
+        font-size:x-large;
+}
+
+.para {
+    font-size:larger;
+}
+
+.proertiesDescription {
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.bowerInstall {
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: lightgray;
+    margin-bottom: 100px;
+    padding: 20px;
+    font-size: x-large;
+    width: 300px;
+}
+

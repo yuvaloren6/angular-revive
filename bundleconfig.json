@@ -1,0 +1,14 @@
+[
+  {
+    "outputFileName": "enliven.min.js",
+    "inputFiles": [
+      "enliven.js"
+    ]
+  },
+  {
+    "outputFileName": "example/enlivenExample.min.js",
+    "inputFiles": [
+      "example/enlivenExample.js"
+    ]
+  }
+]
