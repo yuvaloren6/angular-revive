@@ -68,7 +68,7 @@ Use the conteroller $scope (or scope from link function) rather than $rootscope 
 The following piece of code is the kind of logic you will need to implement in your directive:
 ```javascript
 	$scope.clickEvent = function (event, id) {
-		if (I'm Disabled - do nothing) {
+		if (I am Disabled - do nothing) {
 			return;
 		}
 		$scope.$emit(MessageItemSelected, id);
@@ -82,7 +82,7 @@ interaction or model intervention. This gives the transcluded directive and/or i
 The following piece of code is the kind of logic you will need to implement in your directive:
 ```javascript
 	$scope.$on(MessageSelectionChanged, function (event, selections) {
-		if (I'm in selected list) {
+		if (I am in selected list) {
 			show that I'm selected
 		} else {
 			show my normal representation
@@ -96,7 +96,7 @@ Whenever the list of disabled items is changes by the model, the directive will 
 The following piece of code is the kind of logic you will need to implement in your directive:  
 ```javascript
     $scope.$on(MessageDisableItems, function (event, disabledList) {
-        if (I'm in list of disabled items) {
+        if (I am in list of disabled items) {
 			disable myself
         } else {
 			enable myself
