@@ -14,6 +14,10 @@
     "Yuval Oren <yuval.oren6@gmail.com>"
   ],
   "license": "MIT",
-  "ignore": [],
+  "ignore": [
+    ".gitattributes",
+    "example",
+    "bundleconfig.json"
+    ],
   "private": false
 }
