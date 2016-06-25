@@ -116,6 +116,8 @@ of disabled items. The following piece of code is the kind of logic you will nee
 ```
 
 ###Install with Bower
+When you install with bower, you only get the javascript source file and the README.md file. If you want to download the example, get the zip or tar files from Github.
+
 ```sh
 $ bower install angular-revive
 ```
